@@ -37,7 +37,7 @@ const {
         </>
         ) : (
 
-        <Formulario cliente={cliente} clienteMudou={salvarCliente} cancelado={() => exibirTabela}></Formulario>
+        <Formulario cliente={cliente} clienteMudou={salvarCliente} cancelado={exibirTabela}></Formulario>
         )}
       </Layout>
     </div>
